@@ -1,0 +1,160 @@
+.el-header, .el-main {
+    padding: 0px;
+}
+
+.el-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.el-input-group__append {
+    padding: 0px 15px;
+}
+
+.content {
+    width: 1080px;
+    min-height: calc(100vh - 120px);
+    margin: 60px auto 0px;
+    background-color: #fbfaf8;
+}
+
+.left-content {
+    width: 200px !important;
+    position: fixed;
+}
+
+.right-content {
+    margin-left: 200px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.right-content .t-left h3 {
+    padding: 5px;
+    color: #f4f2ef;
+    border-radius: 4px;
+    background-color: #cab389;
+}
+
+.right-content .t-left p i {
+    border: 2px solid #cab389;
+    background: #cab389;
+    margin-right: 4px;
+}
+
+.el-menu-vertical {
+    border-right: 0px;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.bb {
+    border-bottom: 1px solid;
+}
+
+.p10 {
+    padding: 0px 10px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pb40 {
+    padding-bottom: 40px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.ml100 {
+    margin-left: 100px;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.el-badge__content {
+    height: 15px;
+    line-height: 15px;
+}
+
+.dialogForm .el-dialog__header {
+    text-align: left;
+    padding: 0 15px;
+    line-height: 50px;
+    height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.dialogForm .el-dialog__title {
+    font-size: 16px;
+}
+
+.dialogForm .el-dialog__headerbtn {
+    top: 15px;
+}
+
+.dialogForm .el-dialog__body {
+    padding: 20px 20px 0px 20px;
+}
+
+.dialogForm .el-dialog__footer {
+    border-top: 1px solid #E5E5E5;
+    height: 62px;
+    line-height: 62px;
+    padding: 0 20px;
+}
+
+.dialogForm .el-input--small .el-input__inner {
+    width: 315px;
+}
+
+.dialogForm .el-form-item__content {
+    text-align: left;
+}
+
+.dialogForm .el-form-item__content .el-radio {
+    width: 100px;
+    padding: 0px 5px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    color: red;
+}
+
+.el-pagination {
+    margin-bottom: 10px;
+}
