@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "echarts": "^4.1.0",
     "echarts-wordcloud": "^1.1.3",
     "element-ui": "^2.4.4",
