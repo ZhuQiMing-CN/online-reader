@@ -9,7 +9,6 @@ import store from './store';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/css/app.css';
 import axios from "axios";
-import {Loading} from "element-ui";
 
 Vue.use(VueRouter);
 Vue.use(ElementUI);
@@ -21,7 +20,8 @@ var loading
 axios.interceptors.request.use(function (config) {
     // 在发送请求之前做些什么
     // 显示loading
-    loading = Loading.service({
+    loading = Vue.prototype.$loading({
+        lock: true,
         text: '拼命加载中',
         spinner: 'el-icon-loading',
         background: 'rgba(0, 0, 0, 0.8)'
